@@ -26,7 +26,7 @@ const XML = `
 
 const XMLExtract = require('xml-extract');
 
-// Extract ```html <loc>``` without tags
+// Extract `<loc>` without tags
 XMLExtract(XML, 'loc', false, (error, element) => {
   if (error) {
     throw new Error(error);
@@ -40,7 +40,7 @@ XMLExtract(XML, 'loc', false, (error, element) => {
   // http://www.example.com/3
 });
 
-// Extract ```html <loc>``` with tags
+// Extract `<loc>` with tags
 XMLExtract(XML, 'loc', true, (error, element) => {
   if (error) {
     throw new Error(error);
