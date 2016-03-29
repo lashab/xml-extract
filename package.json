@@ -1,0 +1,29 @@
+{
+  "name": "xml-extract",
+  "version": "1.0.0",
+  "description": "Extract elements from XML",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "node_modules/.bin/mocha",
+    "eslint": "node_modules/.bin/eslint --config=.eslintrc lib/*",
+    "test": "npm run mocha && npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lashab/xml-extract.git"
+  },
+  "keywords": [
+    "xml parse",
+    "xml extract"
+  ],
+  "author": "Lasha Badashvili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lashab/xml-extract/issues"
+  },
+  "homepage": "https://github.com/lashab/xml-extract#readme",
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "mocha": "^2.4.5"
+  }
+}
